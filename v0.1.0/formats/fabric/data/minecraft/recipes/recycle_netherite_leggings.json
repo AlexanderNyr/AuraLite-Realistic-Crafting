@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "result": "minecraft:netherite_scrap",
+  "experience": 1.0,
+  "cookingtime": 100
+}

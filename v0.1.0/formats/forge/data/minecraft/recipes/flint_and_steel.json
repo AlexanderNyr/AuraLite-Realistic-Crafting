@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "I ",
+    "  ",
+    "_F"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "_": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:flint_and_steel"
+  }
+}
