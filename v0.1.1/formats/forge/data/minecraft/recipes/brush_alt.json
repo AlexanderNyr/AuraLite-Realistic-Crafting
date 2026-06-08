@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "F",
+    "S",
+    "C"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "minecraft:brush",
+    "count": 1
+  }
+}

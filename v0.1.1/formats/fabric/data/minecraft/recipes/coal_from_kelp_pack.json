@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "KKK",
+    "KKK",
+    "KKK"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:dried_kelp_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:coal",
+    "count": 4
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NSN",
+    "SHS",
+    "NSN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "S": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "H": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "minecraft:conduit"
+  }
+}

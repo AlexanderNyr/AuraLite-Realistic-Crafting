@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "SSS"
+  ],
+  "key": {
+    "G": {
+      "tag": "minecraft:planks"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "S": {
+      "item": "minecraft:smooth_stone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector"
+  }
+}

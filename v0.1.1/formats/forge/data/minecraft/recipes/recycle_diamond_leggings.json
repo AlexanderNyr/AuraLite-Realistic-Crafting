@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "result": "minecraft:diamond",
+  "experience": 1.0,
+  "cookingtime": 100
+}

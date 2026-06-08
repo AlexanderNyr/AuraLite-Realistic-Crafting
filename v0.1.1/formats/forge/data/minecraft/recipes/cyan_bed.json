@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWL",
+    "PPP"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:cyan_wool"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_bed"
+  }
+}

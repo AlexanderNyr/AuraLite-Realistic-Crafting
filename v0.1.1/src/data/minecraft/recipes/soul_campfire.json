@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "SLS",
+    "OOO"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "O": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result": {
+    "item": "minecraft:soul_campfire"
+  }
+}

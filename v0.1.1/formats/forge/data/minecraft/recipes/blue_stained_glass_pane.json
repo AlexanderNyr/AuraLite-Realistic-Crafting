@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:blue_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_stained_glass_pane",
+    "count": 8
+  }
+}

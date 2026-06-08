@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "auralite_realistic_crafting",
+  "version": "0.1.1",
+  "name": "AuraLite Realistic Crafting",
+  "description": "Replaces 1258 vanilla recipes with more realistic ones.",
+  "authors": ["AlexanderNyr"],
+  "contact": {
+    "homepage": "https://github.com/AlexanderNyr/AuraLite-Realistic-Crafting",
+    "sources": "https://github.com/AlexanderNyr/AuraLite-Realistic-Crafting"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "icon": "assets/auralite_realistic_crafting/icon.png",
+  "environment": "*",
+  "depends": {
+    "minecraft": ">=1.20",
+    "fabricloader": ">=0.14.0"
+  }
+}
