@@ -5,7 +5,7 @@
 **1258 reworked recipes** — almost every vanilla craft is now more realistic.
 Ships in **3 formats**: vanilla **datapack**, **Fabric** mod, **Forge** mod.
 
-![icon](pack.png)
+![icon](icon.png)
 
 > 📜 **TL;DR license:** You may freely use, modify and redistribute this mod **with credit to AlexanderNyr** and **only for non‑commercial purposes**; derivative works must use the same license. Full text in `LICENSE.txt`. **Monetized YouTube/Twitch videos are fine** — see the Rules & Permissions section below.
 
