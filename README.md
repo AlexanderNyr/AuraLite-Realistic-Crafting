@@ -2,7 +2,7 @@
 
 **Copyright © 2026 AlexanderNyr** · License: **CC BY‑NC‑SA 4.0**
 
-**1247 reworked recipes** — almost every vanilla craft is now more realistic.
+**1258 reworked recipes** — almost every vanilla craft is now more realistic.
 Ships in **3 formats**: vanilla **datapack**, **Fabric** mod, **Forge** mod.
 
 ![icon](pack.png)
@@ -15,9 +15,9 @@ Ships in **3 formats**: vanilla **datapack**, **Fabric** mod, **Forge** mod.
 
 | File | Where to put it | Requires |
 |---|---|---|
-| `AuraLiteRealisticCrafting-datapack-0.1.0-beta.zip` | `<world>/datapacks/` | nothing — vanilla 1.20.1 client |
-| `AuraLiteRealisticCrafting-fabric-0.1.0-beta.jar`   | `.minecraft/mods/` | Fabric Loader 0.14+ |
-| `AuraLiteRealisticCrafting-forge-0.1.0-beta.jar`    | `.minecraft/mods/` | Forge 47+ |
+| `AuraLiteRealisticCrafting-datapack-0.1.1.zip` | `<world>/datapacks/` | nothing — vanilla 1.20.1 client |
+| `AuraLiteRealisticCrafting-fabric-0.1.1.jar`   | `.minecraft/mods/` | Fabric Loader 0.14+ |
+| `AuraLiteRealisticCrafting-forge-0.1.1.jar`    | `.minecraft/mods/` | Forge 47+ |
 
 > The datapack is a `.zip` (Minecraft data packs require this), while Fabric/Forge mods **must** be `.jar` files — the loaders ignore anything else in the `mods/` folder. All three files contain the same JSON recipes; only the manifest differs.
 
@@ -26,24 +26,24 @@ Ships in **3 formats**: vanilla **datapack**, **Fabric** mod, **Forge** mod.
 ## 🚀 Installation
 
 ### Datapack (no mods needed, any 1.20.1 client)
-1. Put `AuraLiteRealisticCrafting-datapack-0.1.0-beta.zip` into `<world_folder>/datapacks/`.
+1. Put `AuraLiteRealisticCrafting-datapack-0.1.1.zip` into `<world_folder>/datapacks/`.
 2. Enter the world and run `/reload`. Verify with `/datapack list`.
 
 ### Fabric
 1. Install [Fabric Loader 0.14+](https://fabricmc.net/use/installer/) for 1.20.1.
-2. Drop `AuraLiteRealisticCrafting-fabric-0.1.0-beta.jar` into `.minecraft/mods/`.
+2. Drop `AuraLiteRealisticCrafting-fabric-0.1.1.jar` into `.minecraft/mods/`.
 3. Launch the Fabric profile.
 
 ### Forge
 1. Install [Forge 47.x](https://files.minecraftforge.net/) for 1.20.1.
-2. Drop `AuraLiteRealisticCrafting-forge-0.1.0-beta.jar` into `.minecraft/mods/`.
+2. Drop `AuraLiteRealisticCrafting-forge-0.1.1.jar` into `.minecraft/mods/`.
 3. Launch. The mod registers via `lowcodefml` (pure data — no Java code).
 
 Works on servers too — same file goes into the server's `mods/` folder or world `datapacks/` folder.
 
 ---
 
-## 🛠 What changed (1247 recipes)
+## 🛠 What changed (1258 recipes)
 
 ### 🪵 Wood (11 types: oak, spruce, birch, jungle, acacia, dark_oak, mangrove, cherry, crimson, warped, bamboo)
 - **1 log → 6 planks** (realistic sawmilling)
@@ -209,7 +209,7 @@ Human‑readable summary: <https://creativecommons.org/licenses/by-nc-sa/4.0/>.
 
 ```
 AuraLiteRealisticCrafting/
-├── src/data/minecraft/recipes/    ← 1247 JSON recipe sources
+├── src/data/minecraft/recipes/    ← 1258 JSON recipe sources
 ├── scripts/
 │   └── package.sh                 ← builds all 3 archives
 ├── formats/
@@ -217,13 +217,40 @@ AuraLiteRealisticCrafting/
 │   ├── fabric/                    ← unpacked Fabric mod contents
 │   └── forge/                     ← unpacked Forge mod contents
 ├── build/
-│   ├── AuraLiteRealisticCrafting-datapack-0.1.0-beta.zip
-│   ├── AuraLiteRealisticCrafting-fabric-0.1.0-beta.jar
-│   └── AuraLiteRealisticCrafting-forge-0.1.0-beta.jar
+│   ├── AuraLiteRealisticCrafting-datapack-0.1.1.zip
+│   ├── AuraLiteRealisticCrafting-fabric-0.1.1.jar
+│   └── AuraLiteRealisticCrafting-forge-0.1.1.jar
 ├── pack.png                       ← 128×128 pixel-art "A" icon with aura
 ├── LICENSE.txt                    ← full CC BY-NC-SA 4.0 text
 └── README.md
 ```
+
+## 📝 Changelog
+
+### v0.1.1
+- **New recipes:**
+  - `Brush` (1.20) — realistic archaeological brush: feather/stick/copper + alternate rabbit-hide variant
+  - `Calibrated Sculk Sensor` — enhanced recipe requiring redstone tuning
+  - `Recycle Brush` — dismantle brushes back into copper nuggets
+  - `Recycle Spyglass` — dismantle spyglasses back into copper nuggets
+  - `Recycle Compass / Clock` — dismantle back into iron/gold nuggets
+  - `Recycle Saddle / Crossbow / Bow / Shears / Bucket / Flint & Steel` — smelting returns materials
+  - `Recycle Lead` — unravel back into string
+  - `Beehive` — realistic woodworking recipe with honeycomb
+- **Build system:**
+  - Added JSON validation and duplicate-ID detection in `scripts/package.sh`
+  - Updated Fabric & Forge manifests with links, issue tracker and better metadata
+  - `CHANGELOG.md` now ships inside every archive
+- **Bug Fixes:**
+  - `Enchanted Golden Apple` — corrected result item (was `golden_apple`, now `enchanted_golden_apple`)
+  - `Anvil` — fixed recipe cost (was 7 iron blocks / 63 ingots, now 3 blocks + 4 ingots)
+  - Removed duplicate recipes: `locator_map`, `white_wool_alt`, `empty_map_v2`
+  - Removed misleading `apple_pie` recipe (produced `pumpkin_pie` under wrong filename)
+- **Quality:**
+  - All 1258 recipes validated for JSON correctness before packaging
+
+### v0.1.0-beta
+- Initial release with 1247 realistic recipes covering tools, armor, dyes, stone, redstone, food, transport, magic, recycling and more.
 
 ## 🔧 Rebuild from source
 
