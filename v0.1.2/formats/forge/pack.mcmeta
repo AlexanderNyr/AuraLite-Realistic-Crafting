@@ -1,0 +1,8 @@
+{
+  "pack": {
+    "pack_format": 15,
+    "description": "AuraLite Realistic Crafting (Forge) v0.1.2",
+    "forge:resource_pack_format": 15,
+    "forge:data_pack_format": 15
+  }
+}

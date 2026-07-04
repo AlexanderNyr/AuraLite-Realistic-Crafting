@@ -1,0 +1,32 @@
+modLoader="lowcodefml"
+loaderVersion="[47,)"
+license="CC-BY-NC-SA-4.0"
+issueTrackerURL="https://github.com/AlexanderNyr/AuraLite-Realistic-Crafting/issues"
+
+[[mods]]
+modId="auralite_realistic_crafting"
+version="0.1.2"
+displayName="AuraLite Realistic Crafting"
+authors="AlexanderNyr"
+logoFile="icon.png"
+credits="Copyright (c) 2026 AlexanderNyr"
+displayURL="https://github.com/AlexanderNyr/AuraLite-Realistic-Crafting"
+description='''
+Replaces 1300 vanilla recipes with more realistic ones.
+Pure data-driven mod — no Java code, just JSON recipes.
+Works on both client and server.
+'''
+
+[[dependencies.auralite_realistic_crafting]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.auralite_realistic_crafting]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20,1.21)"
+ordering="NONE"
+side="BOTH"
