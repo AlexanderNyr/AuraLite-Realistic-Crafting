@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cake"
+    },
+    {
+      "item": "minecraft:cyan_candle"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_candle_cake"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:spyglass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:copper_nugget",
+    "count": 9
+  }
+}

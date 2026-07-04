@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:cherry_boat"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cherry_chest_boat"
+  }
+}

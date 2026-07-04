@@ -12,7 +12,7 @@ logoFile="icon.png"
 credits="Copyright (c) 2026 AlexanderNyr"
 displayURL="https://github.com/AlexanderNyr/AuraLite-Realistic-Crafting"
 description='''
-Replaces 1300 vanilla recipes with more realistic ones.
+Replaces 1309 vanilla recipes with more realistic ones.
 Pure data-driven mod — no Java code, just JSON recipes.
 Works on both client and server.
 '''
